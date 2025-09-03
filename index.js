@@ -8,7 +8,7 @@ const s4 = "bread";
 const s5 = "and";
 
 // Concatenate the string variables into one new string
-let newString = s1 + " " + s2 + " " + s5 + " " + s3 + " " + s4 + " " + s5;
+let newString = `${s1} ${s2} ${s3} ${s4} ${s5} ${s3} ${s2} ${s1} ${s4}`;
 
 // Print out the concatenated string
 
@@ -37,7 +37,7 @@ const billTotal = 84;
 
 // Calculate the tip (15% of the bill total)
 
-let newBill = billTotal * 0.85;
+let newBill = billTotal * 0.15;
 // Print out the tipAmount
 
 
