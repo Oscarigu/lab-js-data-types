@@ -40,7 +40,7 @@ const billTotal = 84;
 let newBill = billTotal * 0.15;
 // Print out the tipAmount
 
-
+console.log(newBill);
 
 
 /*******************************************
